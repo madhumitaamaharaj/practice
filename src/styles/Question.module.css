@@ -1,0 +1,97 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; 
+  }
+  
+  .wrapper {
+    width: 400px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-label {
+    color: #8b1f8b;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option-label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-button {
+    background-color: #8b1f8b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .form-button:hover {
+    background-color: #6a146a;
+  }
+  
+ 
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    
+  }
+  
+  input[name="duration"],
+  input[name="timing"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+  }
+  .question-container {
+    margin-top: 20px;
+  }
+  
+  .question-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .question-container .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  
+  .question-container .form-label {
+    color: #8b1f8b;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+  }

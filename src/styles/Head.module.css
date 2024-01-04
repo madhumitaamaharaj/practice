@@ -1,0 +1,29 @@
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    top: 0;
+  z-index:1 ;
+  position: sticky;
+  }
+  
+  .leftIcons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rightIcons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .iconSpacing {
+    width: 10px; 
+  }
